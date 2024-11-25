@@ -35,36 +35,18 @@
 						<li class="nav-item">
 							<a class="nav-link active" href="download.html">Download</a>
 						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								Dropdown
-							</a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Action</a></li>
-								<li><a class="dropdown-item" href="#">Another action</a></li>
-								<li><hr class="dropdown-divider" /></li>
-								<li>
-									<a class="dropdown-item" href="#">Something else here</a>
-								</li>
-							</ul>
+						<li class="nav-item">
+							<a class="nav-link" href="reviewForm.html">Leave a review</a>
 						</li>
 					</ul>
 					<form class="d-flex" role="search">
-						<input
-							class="form-control me-2"
-							type="search"
-							placeholder="Find your calm"
-							aria-label="Search"
-						/>
-						<button class="btn btn-outline-success" type="submit">
-							Search
-						</button>
+						<form class="d-flex" role="search">
+							<input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+							<datalist id="datalistOptions">
+							<option  value="Download">
+							<option value="Leave a review">
+
+						</form>
 					</form>
 				</div>
 			</div>
@@ -83,6 +65,59 @@
 
 		<div class="container">
 			<h2>App features</h2>
+			<div class="row">
+				<div class="col-lg-4 col-md-3 col-sm-2">
+					<div class="card shadow" style="width: 24rem">
+						<img
+							src="images/image-4.jpg"
+							class="card-img-top"
+							alt="Mindfulness"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Promote Mindfulness</h5>
+							<p class="card-text">
+								We aim to help users enhance their well-being by providing
+								guided meditation sessions, and journaling prompts that
+								encourage self-reflection.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-3 col-sm-2">
+					<div class="card shadow" style="width: 24rem">
+						<img
+							src="images/image-5.jpg"
+							class="card-img-top"
+							alt="Consistency"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Consistency</h5>
+							<p class="card-text">
+								We aim to encourage regular meditation and journaling by
+								offering features such as reminders, progress tracking and
+								personalized recommendations based on user preferences.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-3 col-sm-2">
+					<div class="card shadow" style="width: 24rem">
+						<img
+							src="images/image-6.jpg"
+							class="card-img-top"
+							alt="Community"
+						/>
+						<div class="card-body">
+							<h5 class="card-title">Supportive Community</h5>
+							<p class="card-text">
+								We aim to build a sense of community among users by
+								incorporating social features, such as sharing experiences,
+								participating in group meditations, or engaging in discussions.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- footer -->
@@ -99,7 +134,7 @@
 					</li>
 
 					<li class="nav-item">
-						<a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+						<a href="reviewForm.html" class="nav-link px-2 text-body-secondary">Review</a>
 					</li>
 				</ul>
 				<p class="text-center text-body-secondary">© 2024 Meditate More, Inc</p>
